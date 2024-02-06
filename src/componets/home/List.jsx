@@ -1,21 +1,35 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import Person from './Person'
-import data from '../../assets/data';
+
 const List = () => {
     
-    const [people, setPeople] = useState(data);
-    const [isPending, setIsPanding] = useState(false);
+    const [people, setPeople] = useState([]);
+    const [isPending, setIsPanding] = useState(true);
     const [error, setError] = useState(null);
 
-    
+    useEffect(()=>{
 
+        fetch('http://localhost:3000/users')
+        .then((response)=>{
+            return response.json()
+        })
+        .then((data)=>{
+            setPeople(data);
+            setIsPanding(false);
+            setError(null)
+        })
+
+        
+    },[]);
+
+   
 
     return (
 
         <div className="list-container">
             <div className="list">      
              {
-              !isPending && !error && people.map((pl)=>{ return <Person person={pl} />})
+              !isPending && !error && people.map((pl)=>{ return <Person key={pl.id} person={pl} />})
              }
              {
                 isPending && <h2>Loading data....</h2>

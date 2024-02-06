@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "name": "Philip Smith",
+      "description": "Looking for a small slimed babe",
+      "id": 1,
+      "profile_img": "./images/hero.png",
+      "blog_img": "https://placekitten.com/400/600",
+      "more_images": ["https://placekitten.com/400/600","https://placekitten.com/400/600","https://placekitten.com/400/600"]
+    },
+    {
+      "name": "Alice Johnson",
+      "description": "Adventurous spirit seeking new experiences",
+      "id": 2,
+      "profile_img": "./images/hero.png",
+      "blog_img": "https://placekitten.com/400/600"
+    },
+    {
+      "name": "Bob Miller",
+      "description": "Passionate about technology and innovation",
+      "id": 3,
+      "profile_img": "./images/hero.png",
+      "blog_img": "https://placekitten.com/400/600"
+    }
+
+    
+  ]
+}
