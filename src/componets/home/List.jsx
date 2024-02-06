@@ -1,5 +1,7 @@
 import { useEffect, useState } from 'react'
 import Person from './Person'
+import SkeletonElement from '../../skeletons/SkeletonElement';
+import SkelotonPeople from '../../skeletons/SkelotonPeople';
 
 const List = () => {
     
@@ -9,6 +11,8 @@ const List = () => {
 
     useEffect(()=>{
 
+      setTimeout(() => {
+        
         fetch('http://localhost:3000/users')
         .then((response)=>{
             return response.json()
@@ -18,6 +22,7 @@ const List = () => {
             setIsPanding(false);
             setError(null)
         })
+      }, '8000');
 
         
     },[]);
@@ -32,7 +37,7 @@ const List = () => {
               !isPending && !error && people.map((pl)=>{ return <Person key={pl.id} person={pl} />})
              }
              {
-                isPending && <h2>Loading data....</h2>
+                isPending && [1,2,3].map((n)=>  <SkelotonPeople key={n}  />)
              }
              {
                 error && <h2> Error: {error.massege} </h2>

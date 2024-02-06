@@ -1,0 +1,107 @@
+
+.skeleton{
+background-color: #ddd;
+margin: 10px 0;
+border-radius: 5px;
+}
+
+.skeleton.text{
+    width: 100%;
+    height: 12px;
+}
+
+.skeleton.title{
+    width: 50%;
+    height: 20px;
+    margin-bottom: 15px;
+}
+
+.skeleton.avatar{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.skeleton.thumbnail {
+    width: 100px;
+    height: 100px;
+}
+.skeleton.image{
+    width: 100%;
+    height: 100%;
+}
+
+.skeloton-wrapper{
+    padding: 10px 15px;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+/* theme */
+
+.skeloton-wrapper.light {
+background-color: #f2f2f2;
+}
+
+.skeloton-wrapper.dark{
+    background-color: #444;
+}
+
+.skeloton-wrapper.dark  .skeleton{
+    background-color: #777;
+}
+
+
+
+/* animation effect */
+.shimmer-wrapper{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    animation: moving 2.5s infinite;
+    
+}
+
+.shimmer{
+    width: 50%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: skewX(-20deg);
+    box-shadow: 0 0 30px 30px rgba(255, 255, 255, 0.05);
+}
+.dark .shimmer{
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+@keyframes moving {
+    0% {transform: translateX(-150%);}
+    50% {transform: translateX(-60%);}
+    100% {transform: translateX(150%);}
+}
+
+/* people */
+.skeloton-people > :nth-child(1){
+ width: 100%;
+ height: 150px;
+}
+.skeloton-people > :nth-child(2){
+ width: 100%;
+ display: grid;
+ grid-template-columns: 1fr 3fr;
+ align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
