@@ -12,17 +12,12 @@ const List = () => {
     const getData = async ()=>{
 
       try {
-
         const res = await axiosInstance.get('users');
         setPeople(res.data);
         setIsPanding(false);
-
-
       }catch(err){
-
         setIsPanding(false);
         setError(err.message);
-
       }
 
     }

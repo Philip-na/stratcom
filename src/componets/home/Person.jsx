@@ -16,7 +16,7 @@ const Person = ({ person }) => {
           <Link to={`/profile/${person.id}`}>
             <h2>{person?.name}</h2>
           </Link>
-          <p>{person?.description} </p>
+          <p>{person?.description.substring(0, 40)}... </p>
         </div>
       </div>
     </div>

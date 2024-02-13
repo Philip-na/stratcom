@@ -4,10 +4,10 @@ import { Link } from 'react-router-dom'
 const Sidebar = () => {
   return (
     <aside>
-      <Link to={'home'}>HOME</Link>
-      <Link to={'home'}>Fovarets</Link>
-      <Link to={'home'}>Massages</Link>
-      <Link to={'home'}>Profile</Link>
+      <Link to={'/home'}>HOME</Link>
+      <Link to={'/home'}>Fovarets</Link>
+    
+      <Link to={'/home'}>Profile</Link>
     </aside>
   )
 }

@@ -6,7 +6,6 @@ const SidBar = () => {
         <Link to={'/home'} >HOME</Link>
         <Link to={'/home'} >Fovarates</Link>
         <Link to={'/profile'} >Profile</Link>
-        <Link to={'/home'} >Masages</Link>
         <Link to={'/home'} >Setting</Link>
     </aside>
   )

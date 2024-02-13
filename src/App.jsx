@@ -11,6 +11,7 @@ import ProfilePage from "./pages/ProfilePage";
 import Login from "./pages/auth/Login";
 import Sigup from "./pages/auth/Sigup";
 import Pagelayout from "./Layouts/Pagelayout";
+import MessagePage from "./pages/MessagePage";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -22,6 +23,7 @@ const router = createBrowserRouter(
       <Route element={<Pagelayout />}>
         <Route path="home" element={<Home />} />
         <Route path="profile/:user_id" element={<ProfilePage />} />
+        <Route path="message/:user_id/:name" element={<MessagePage />} />
         <Route path="favorites" element={<FavoratesPage />} />
 
       </Route>

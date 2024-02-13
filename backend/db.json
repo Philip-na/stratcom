@@ -2,27 +2,433 @@
   "users": [
     {
       "name": "Philip Smith",
-      "description": "Looking for a small slimed babe",
-      "id": 1,
-      "profile_img": "./images/hero.png",
+      "description": "Looking for a small slimed babe to share my love for adventure and cuddles. Passionate about photography and exploring new places.",
+      "id": "1",
+      "profile_img": "/images/hero.png",
       "blog_img": "https://placekitten.com/400/600",
-      "more_images": ["https://placekitten.com/400/600","https://placekitten.com/400/600","https://placekitten.com/400/600"]
+      "more_images": [
+        "https://placekitten.com/400/600",
+        "https://placekitten.com/400/600",
+        "https://placekitten.com/400/600"
+      ]
     },
     {
       "name": "Alice Johnson",
-      "description": "Adventurous spirit seeking new experiences",
-      "id": 2,
-      "profile_img": "./images/hero.png",
-      "blog_img": "https://placekitten.com/400/600"
+      "description": "Adventurous spirit seeking new experiences and interesting conversations. Enjoys hiking, reading, and discovering hidden gems in the city.",
+      "id": "2",
+      "profile_img": "/images/hero.png",
+      "blog_img": "https://placekitten.com/400/600",
+      "more_images": [
+        "https://placekitten.com/400/600",
+        "https://placekitten.com/400/600",
+        "https://placekitten.com/400/600"
+      ]
     },
     {
       "name": "Bob Miller",
-      "description": "Passionate about technology and innovation",
-      "id": 3,
+      "description": "Passionate about technology and innovation. Always up for a coding challenge or discussing the latest advancements in science and tech.",
+      "id": "3",
+      "profile_img": "/images/hero.png",
+      "blog_img": "https://placekitten.com/400/600",
+      "more_images": [
+        "https://placekitten.com/400/600",
+        "https://placekitten.com/400/600",
+        "https://placekitten.com/400/600"
+      ]
+    },
+    {
+      "id": "ae94",
+      "name": "Philip Nabikamba",
+      "description": "Seeking someone with a love for art and creativity. Enjoys painting, photography, and exploring different art galleries. Let's create something beautiful together!",
+      "username": "Philip",
+      "password": "iuojoi",
+      "profile_img": "https://placekitten.com/400/600",
+      "blog_img": "https://placekitten.com/400/600",
+      "more_images": [
+        "https://placekitten.com/400/600",
+        "https://placekitten.com/400/600",
+        "https://placekitten.com/400/600"
+      ]
+    },
+    {
+      "id": "d7ac",
+      "name": "zamora the man",
+      "description": "Confident and charismatic individual who loves socializing and making new friends. Enjoys outdoor activities, sports, and trying out new cuisines.",
+      "username": "zamora",
+      "password": "philip",
+      "profile_img": "/images/hero.png",
+      "blog_img": "/images/hero.png"
+    },
+    {
+      "id": "39f0",
+      "name": "jhsdk",
+      "description": "Free-spirited soul who loves to dance in the rain and chase butterflies. Looking for someone with a positive outlook on life and a sense of humor.",
+      "username": "hhj",
+      "password": "dsfdf",
       "profile_img": "./images/hero.png",
-      "blog_img": "https://placekitten.com/400/600"
+      "blog_img": "./images/hero.png"
     }
-
-    
+  ],
+  "messages": [
+    {
+      "id": "1",
+      "senderId": "2",
+      "receiverId": "1",
+      "sender": "Alice Johnson",
+      "receiver": "Philip Smith",
+      "message": "Hey Philip! How's it going?",
+      "timestamp": "2024-02-14T08:30:00Z"
+    },
+    {
+      "id": "2",
+      "senderId": "3",
+      "receiverId": "1",
+      "sender": "Bob Miller",
+      "receiver": "Philip Smith",
+      "message": "Philip, let's catch up this weekend. I have some exciting tech news to share!",
+      "timestamp": "2024-02-14T09:15:00Z"
+    },
+    {
+      "id": "3",
+      "senderId": "1",
+      "receiverId": "3",
+      "sender": "Philip Smith",
+      "receiver": "Bob Miller",
+      "message": "Bob, that sounds awesome! I'm looking forward to our chat.",
+      "timestamp": "2024-02-14T10:00:00Z"
+    },
+    {
+      "id": "4",
+      "senderId": "3",
+      "receiverId": "2",
+      "sender": "Bob Miller",
+      "receiver": "Alice Johnson",
+      "message": "Alice, have you tried the latest coding challenge on LeetCode? It's challenging!",
+      "timestamp": "2024-02-14T11:30:00Z"
+    },
+    {
+      "id": "5",
+      "senderId": "1",
+      "receiverId": "2",
+      "sender": "Philip Smith",
+      "receiver": "Alice Johnson",
+      "message": "Alice, your adventurous spirit inspires me! Any recommendations for a good book?",
+      "timestamp": "2024-02-14T12:45:00Z"
+    },
+    {
+      "id": "6",
+      "senderId": "2",
+      "receiverId": "3",
+      "sender": "Alice Johnson",
+      "receiver": "Bob Miller",
+      "message": "Bob, I heard there's a new hiking trail opening soon. Would you be interested in joining?",
+      "timestamp": "2024-02-14T19:45:00Z"
+    },
+    {
+      "id": "7",
+      "senderId": "1",
+      "receiverId": "2",
+      "sender": "Philip Smith",
+      "receiver": "Alice Johnson",
+      "message": "Alice, your blog images are stunning! Do you use a specific camera?",
+      "timestamp": "2024-02-14T21:00:00Z"
+    },
+    {
+      "id": "8",
+      "senderId": "3",
+      "receiverId": "1",
+      "sender": "Bob Miller",
+      "receiver": "Philip Smith",
+      "message": "Philip, have you seen the latest tech conference lineup? It's impressive!",
+      "timestamp": "2024-02-15T08:00:00Z"
+    },
+    {
+      "id": "9",
+      "senderId": "2",
+      "receiverId": "3",
+      "sender": "Alice Johnson",
+      "receiver": "Bob Miller",
+      "message": "Bob, let's plan a day for exploring hidden gems in the city. What do you think?",
+      "timestamp": "2024-02-15T10:30:00Z"
+    },
+    {
+      "id": "10",
+      "senderId": "1",
+      "receiverId": "3",
+      "sender": "Philip Smith",
+      "receiver": "Bob Miller",
+      "message": "Bob, your passion for technology is inspiring! Any favorite coding languages?",
+      "timestamp": "2024-02-15T12:15:00Z"
+    },
+    {
+      "id": "11",
+      "senderId": "3",
+      "receiverId": "2",
+      "sender": "Bob Miller",
+      "receiver": "Alice Johnson",
+      "message": "Alice, any exciting coding projects on your radar? Let's collaborate!",
+      "timestamp": "2024-02-15T14:45:00Z"
+    },
+    {
+      "id": "12",
+      "senderId": "1",
+      "receiverId": "2",
+      "sender": "Philip Smith",
+      "receiver": "Alice Johnson",
+      "message": "Alice, your love for hiking resonates with me! Favorite hiking spot?",
+      "timestamp": "2024-02-15T16:30:00Z"
+    },
+    {
+      "id": "13",
+      "senderId": "2",
+      "receiverId": "1",
+      "sender": "Alice Johnson",
+      "receiver": "Philip Smith",
+      "message": "Philip, any upcoming photography events you're excited about?",
+      "timestamp": "2024-02-15T18:00:00Z"
+    },
+    {
+      "id": "14",
+      "senderId": "3",
+      "receiverId": "1",
+      "sender": "Bob Miller",
+      "receiver": "Philip Smith",
+      "message": "Philip, do you have any favorite photography tips to share?",
+      "timestamp": "2024-02-15T19:30:00Z"
+    },
+    {
+      "id": "15",
+      "senderId": "1",
+      "receiverId": "3",
+      "sender": "Philip Smith",
+      "receiver": "Bob Miller",
+      "message": "Bob, let's plan a tech meetup! Any preferences for the venue?",
+      "timestamp": "2024-02-15T21:15:00Z"
+    },
+    {
+      "id": "16",
+      "senderId": "2",
+      "receiverId": "3",
+      "sender": "Alice Johnson",
+      "receiver": "Bob Miller",
+      "message": "Bob, your coding skills are impressive! Any tips for beginners?",
+      "timestamp": "2024-02-16T08:30:00Z"
+    },
+    {
+      "id": "17",
+      "senderId": "1",
+      "receiverId": "2",
+      "sender": "Philip Smith",
+      "receiver": "Alice Johnson",
+      "message": "Alice, your recent blog post resonated with me. Keep up the great work!",
+      "timestamp": "2024-02-16T10:00:00Z"
+    },
+    {
+      "id": "18",
+      "senderId": "3",
+      "receiverId": "1",
+      "sender": "Bob Miller",
+      "receiver": "Philip Smith",
+      "message": "Philip, have you explored the latest advancements in AI? Let's discuss!",
+      "timestamp": "2024-02-16T12:00:00Z"
+    },
+    {
+      "id": "19",
+      "senderId": "2",
+      "receiverId": "3",
+      "sender": "Alice Johnson",
+      "receiver": "Bob Miller",
+      "message": "Bob, I'm thinking of starting a coding project. Any suggestions for a tech stack?",
+      "timestamp": "2024-02-16T14:30:00Z"
+    },
+    {
+      "id": "20",
+      "senderId": "1",
+      "receiverId": "3",
+      "sender": "Philip Smith",
+      "receiver": "Bob Miller",
+      "message": "Bob, your enthusiasm for innovation is contagious! Let's brainstorm some ideas.",
+      "timestamp": "2024-02-16T16:15:00Z"
+    },
+    {
+      "id": "21",
+      "senderId": "3",
+      "receiverId": "2",
+      "sender": "Bob Miller",
+      "receiver": "Alice Johnson",
+      "message": "Alice, I heard you enjoy discovering hidden gems in the city. Any recent favorites?",
+      "timestamp": "2024-02-16T18:00:00Z"
+    },
+    {
+      "id": "22",
+      "senderId": "1",
+      "receiverId": "2",
+      "sender": "Philip Smith",
+      "receiver": "Alice Johnson",
+      "message": "Alice, your sense of adventure is inspiring! Any upcoming travel plans?",
+      "timestamp": "2024-02-16T19:45:00Z"
+    },
+    {
+      "id": "23",
+      "senderId": "2",
+      "receiverId": "1",
+      "sender": "Alice Johnson",
+      "receiver": "Philip Smith",
+      "message": "Philip, do you have any favorite photography spots in the city? I'd love to explore!",
+      "timestamp": "2024-02-16T21:30:00Z"
+    },
+    {
+      "id": "24",
+      "senderId": "3",
+      "receiverId": "1",
+      "sender": "Bob Miller",
+      "receiver": "Philip Smith",
+      "message": "Philip, let's plan a tech workshop together. It'll be an amazing collaboration!",
+      "timestamp": "2024-02-17T08:30:00Z"
+    },
+    {
+      "id": "25",
+      "senderId": "2",
+      "receiverId": "3",
+      "sender": "Alice Johnson",
+      "receiver": "Bob Miller",
+      "message": "Bob, any favorite coding challenges you'd recommend? I'm up for a coding marathon!",
+      "timestamp": "2024-02-17T10:15:00Z"
+    },
+    {
+      "id": "26",
+      "senderId": "1",
+      "receiverId": "3",
+      "sender": "Philip Smith",
+      "receiver": "Bob Miller",
+      "message": "Bob, your interest in science and tech is fascinating! Any recent discoveries that caught your attention?",
+      "timestamp": "2024-02-17T12:00:00Z"
+    },
+    {
+      "id": "27",
+      "senderId": "3",
+      "receiverId": "2",
+      "sender": "Bob Miller",
+      "receiver": "Alice Johnson",
+      "message": "Alice, let's plan a day for outdoor activities. Maybe a picnic in the park?",
+      "timestamp": "2024-02-17T14:00:00Z"
+    },
+    {
+      "id": "28",
+      "senderId": "1",
+      "receiverId": "2",
+      "sender": "Philip Smith",
+      "receiver": "Alice Johnson",
+      "message": "Alice, your passion for reading is admirable! Any book recommendations for a cozy weekend?",
+      "timestamp": "2024-02-17T16:00:00Z"
+    },
+    {
+      "id": "29",
+      "senderId": "2",
+      "receiverId": "3",
+      "sender": "Alice Johnson",
+      "receiver": "Bob Miller",
+      "message": "Bob, have you tried the new coding challenge platform? It's a great way to sharpen our skills!",
+      "timestamp": "2024-02-17T18:00:00Z"
+    },
+    {
+      "id": "30",
+      "senderId": "1",
+      "receiverId": "3",
+      "sender": "Philip Smith",
+      "receiver": "Bob Miller",
+      "message": "Bob, your coding expertise is truly impressive! Any tips for optimizing code?",
+      "timestamp": "2024-02-17T20:00:00Z"
+    },
+    {
+      "id": "31",
+      "senderId": "3",
+      "receiverId": "1",
+      "sender": "Bob Miller",
+      "receiver": "Philip Smith",
+      "message": "Philip, let's plan a virtual tech meetup. It'll be a great opportunity to connect with other enthusiasts!",
+      "timestamp": "2024-02-18T09:30:00Z"
+    },
+    {
+      "id": "32",
+      "senderId": "2",
+      "receiverId": "3",
+      "sender": "Alice Johnson",
+      "receiver": "Bob Miller",
+      "message": "Bob, any recommendations for interesting coding projects? I'm looking for a new challenge!",
+      "timestamp": "2024-02-18T11:30:00Z"
+    },
+    {
+      "id": "33",
+      "senderId": "1",
+      "receiverId": "2",
+      "sender": "Philip Smith",
+      "receiver": "Alice Johnson",
+      "message": "Alice, your blog inspires me to explore new places. Any upcoming travel destinations on your list?",
+      "timestamp": "2024-02-18T13:30:00Z"
+    },
+    {
+      "id": "34",
+      "senderId": "3",
+      "receiverId": "1",
+      "sender": "Bob Miller",
+      "receiver": "Philip Smith",
+      "message": "Philip, let's share our favorite coding challenges and create a list for others to try!",
+      "timestamp": "2024-02-18T15:30:00Z"
+    },
+    {
+      "id": "35",
+      "senderId": "3",
+      "receiverId": "2",
+      "sender": "Bob Miller",
+      "receiver": "Alice Johnson",
+      "message": "Alice, I'm planning a coding marathon this weekend. Want to join for a collaborative coding session?",
+      "timestamp": "2024-02-18T17:30:00Z"
+    },
+    {
+      "id": "f564",
+      "senderId": "2",
+      "receiverId": "3",
+      "sender": "Your Sender Name",
+      "receiver": "Bob Miller",
+      "message": "hey",
+      "timestamp": "2024-02-13T08:06:41.071Z"
+    },
+    {
+      "id": "b1c4",
+      "senderId": "2",
+      "receiverId": "3",
+      "sender": "Your Sender Name",
+      "receiver": "Bob Miller",
+      "message": " i was thinking about a new plan",
+      "timestamp": "2024-02-13T08:08:08.189Z"
+    },
+    {
+      "id": "6a36",
+      "senderId": "2",
+      "receiverId": "3",
+      "sender": "Your Sender Name",
+      "receiver": "Bob Miller",
+      "message": "this is serious",
+      "timestamp": "2024-02-13T08:08:31.471Z"
+    },
+    {
+      "id": "1776",
+      "senderId": "2",
+      "receiverId": "1",
+      "sender": "Your Sender Name",
+      "receiver": "Philip Smith",
+      "message": "am aher\n",
+      "timestamp": "2024-02-13T08:09:42.504Z"
+    },
+    {
+      "id": "3e78",
+      "senderId": "2",
+      "receiverId": "1",
+      "sender": "Your Sender Name",
+      "receiver": "Philip Smith",
+      "message": "shoud we",
+      "timestamp": "2024-02-13T08:09:53.434Z"
+    }
   ]
 }
